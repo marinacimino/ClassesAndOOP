@@ -14,22 +14,8 @@ dict = {
 order_total = 0
 discount = 0.20
 
-customer = fc.Customer(
-    570,
-    "Danni Sellyar",
-    "97 Mitchell Way Hewitt Texas 76712",
-    "dsellyarft@gmpg.org",
-    "254-555-9362",
-    "False",
-)
-customer = fc.Customer(
-    569,
-    "Aubree Himsworth",
-    "1172 Moulton Hill Waco Texas 76710",
-    "ahimsworthfs@list-manage.com",
-    "254-555-2273",
-    "True",
-)
+customer = fc.Customer(570, "Danni Sellyar", "97 Mitchell Way Hewitt Texas 76712", "dsellyarft@gmpg.org", "254-555-9362", "False")
+customer = fc.Customer(569, "Aubree Himsworth", "1172 Moulton Hill Waco Texas 76710", "ahimsworthfs@list-manage.com", "254-555-2273", "True")
 
 print("Customer Name: ", customer.get_name())
 print("Phone: ", customer.get_phone())
