@@ -20,10 +20,10 @@ customer = fc.Customer(569, "Aubree Himsworth", "1172 Moulton Hill Waco Texas 76
 print("Customer Name: ", customer.get_name())
 print("Phone: ", customer.get_phone())
 
-for row in dict:
-    if customer.get_customer_id() == dict[row][3]:
+for trans in dict:
+    if customer.get_customer_id() == dict[trans][3]:
         transaction = fc.Transaction(
-            dict[row][0], dict[row][1], dict[row][2], dict[row][3]
+            dict[trans][0], dict[trans][1], dict[trans][2], dict[trans][3]
         )
         print(
             "Order Item: ",
